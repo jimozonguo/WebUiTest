@@ -1,0 +1,22 @@
+# 测试报告配置
+report:
+        file_name: 停车场云平台测试报告    # 测试报告文件名
+        report_title: 停车场云平台测试报告 # 测试报告标题
+        description: 停车场云平台测试报告 # 测试描述
+#测试的目标网址
+spsurl: http://www.spsin.com
+#测试数据配置
+database:
+        host: localhost
+        port: 3306
+        user: root
+        password: 123456
+        db: autotest
+        charset: utf8
+#测试元素页面的配置
+pageelymlfile: yunspsin
+
+#测试要用的浏览器"chrome"和“firefox”
+browser: chrome
+
+

@@ -1,0 +1,7 @@
+#每个页面都有url
+url: http://www.spsin.com/
+pageel:
+  username_by_xpath: //*[@id="userAccount"]
+  password_by_xpath: //*[@id="password"]
+  RememberPassword_by_xpath: //*[@id="chkRememberPassword"]
+  loginbotton_by_xpath: //*[@id="btnSubmit"]
