@@ -1,7 +1,6 @@
 from selenium.webdriver.common.action_chains import ActionChains
 from drivers.browser import Browser
-from HTMLReport import logger
-from HTMLReport import AddImage
+from HTMLReport import logger, AddImage
 import time
 from utils.config import Config
 # 不能删除
@@ -87,11 +86,7 @@ class Page(Browser):
     def switch_to_alert(self):
         return self.driver.switch_to.alert
 
-    # 截图
-    def screen_shot(self):
-        time.sleep(1)
-        AddImage(self.driver.get_screenshot_as_base64())
-        time.sleep(1)
+
 
     # 打开浏览器输入网址
     def setUrl(self, url):
@@ -100,15 +95,18 @@ class Page(Browser):
 
     # 获取元素跟据不同的类型查找方式查找，需要后期增加
     def page_el(self, str_el):
+        logger().info("元素名称" + str_el)
         eltype = str_el.split('_')[2]
-
         if eltype == 'xpath':
             str_el = "(By.XPATH,'" + self.el.get("pageel")[str_el] + "')"
+            logger().info("查找元素" + str_el)
             el = self.find_element(*eval(str_el))
         if eltype == 'ID':
             str_el = "(By.ID,'" + self.el.get("pageel")[str_el] + "')"
+            logger().info("查找元素" + str_el)
             el = self.find_element(*eval(str_el))
         return el
+
 
 
 

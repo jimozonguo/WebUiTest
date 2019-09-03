@@ -1,6 +1,4 @@
 # 首页的url
-url: http://www.spsin.com/Home
+url: https://www.baidu.com
 pageel:
-  homeuser_by_xpath: /html/body/table/tbody/tr[1]/td/div/div[2]/div[1]/span
-  outlogin_by_xpath: /html/body/table/tbody/tr[1]/td/div/div[2]/div[5]/ul/li[2]/a
-  car_by_xpath: /html/body/table/tbody/tr[1]/td/div/ul/li[1]/a/img
+  journalism_by_xpath: //*[@id="u1"]/a[1]

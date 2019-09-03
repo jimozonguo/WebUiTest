@@ -2,6 +2,7 @@ import time
 import os
 from selenium import webdriver
 from utils.config import DRIVER_PATH, REPORT_PATH
+from HTMLReport import AddImage
 
 # 根据传入的参数选择浏览器的driver去打开对应的浏览器
 
@@ -35,20 +36,19 @@ class Browser(object):
         self.driver.implicitly_wait(implicitly_wait)
         return self
 
-    def save_screen_shot(self, name='screen_shot'):
-        day = time.strftime('%Y%m%d', time.localtime(time.time()))
-        screenshot_path = REPORT_PATH + '\screenshot_%s' % day
-        if not os.path.exists(screenshot_path):
-            os.makedirs(screenshot_path)
+    # 截图
+    def screen_shot(self):
+        time.sleep(1)
+        AddImage(self.driver.get_screenshot_as_base64())
+        time.sleep(1)
 
-        tm = time.strftime('%H%M%S', time.localtime(time.time()))
-        screenshot = self.driver.save_screenshot(screenshot_path + '\\%s_%s.png' % (name, tm))
-        return screenshot
 
     def close(self):
+
         self.driver.close()
 
     def quit(self):
+
         self.driver.quit()
 
 # 这里试验了一下保存截图的方法，保存png截图到report目录下。

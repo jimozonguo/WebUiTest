@@ -1,10 +1,8 @@
 # 测试报告配置
 report:
-        file_name: 停车场云平台测试报告    # 测试报告文件名
-        report_title: 停车场云平台测试报告 # 测试报告标题
-        description: 停车场云平台测试报告 # 测试描述
-#测试的目标网址
-spsurl: http://www.spsin.com
+        file_name: 百度新闻自动化测试保存    # 测试报告文件名
+        report_title: 百度新闻自动化测试保存 # 测试报告标题
+        description: 百度新闻自动化测试保存 # 测试描述
 #测试数据配置
 database:
         host: localhost
@@ -14,9 +12,9 @@ database:
         db: autotest
         charset: utf8
 #测试元素页面的配置
-pageelymlfile: yunspsin
+pageelymlfile: baidu
 
-#测试要用的浏览器"chrome"和“firefox”
+#测试要用的浏览器"chrome"或“firefox”
 browser: chrome
 
 
