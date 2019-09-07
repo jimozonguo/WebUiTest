@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eb5305f-634e-4305-9fcb-5ea2e89d1922" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/login_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/login_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/browser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/page.py" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageel/homepage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pageel/homepage.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageel/loginpage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pageel/journalismpage.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageel/yunspsin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pageel/baidu.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2019/08/15/images/image_8304_2019_08_15_15_31_56_210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2019/08/15/停车场云平台测试报告20190815153128.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/screenshot_20190817/test_baidu_195107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/screenshot_20190817/test_baidu_195846.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/screenshot_20190817/test_baidu_200031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/login_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/baidu_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019/09/03/images/image_2240_2019_09_03_19_52_32_474.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2019/09/03/百度新闻自动化测试保存20190903195222.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/suite/run_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/suite/run_class.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,47 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/login_case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/suite/run_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+            <state relative-caret-position="136">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding>
                 <element signature="e#47#79#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drivers/page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/drivers/browser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-339">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -103,12 +60,13 @@
         <option value="$PROJECT_DIR$/case/login_case.py" />
         <option value="$PROJECT_DIR$/drivers/browser.py" />
         <option value="$PROJECT_DIR$/drivers/page.py" />
+        <option value="$PROJECT_DIR$/utils/config.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="213" />
-    <option name="y" value="40" />
+    <option name="x" value="670" />
+    <option name="y" value="77" />
     <option name="width" value="1630" />
     <option name="height" value="1004" />
   </component>
@@ -118,7 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,27 +111,6 @@
             <path>
               <item name="WebUiTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebUiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebUiTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebUiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebUiTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebUiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="09" type="462c0819:PsiDirectoryNode" />
-              <item name="03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebUiTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebUiTest" type="462c0819:PsiDirectoryNode" />
               <item name="suite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -186,10 +122,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VScode" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -267,7 +205,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for login_case.TestLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for case.baidu_case.TestLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="WebUiTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,11 +215,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_case.TestLogin&quot;" />
+      <option name="_new_target" value="&quot;case.baidu_case.TestLogin&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in login_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in baidu_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="WebUiTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,15 +229,15 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/login_case.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/baidu_case.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_class" />
-        <item itemvalue="Python tests.Unittests in login_case.py" />
-        <item itemvalue="Python tests.Unittests for login_case.TestLogin" />
+        <item itemvalue="Python tests.Unittests in baidu_case.py" />
+        <item itemvalue="Python tests.Unittests for case.baidu_case.TestLogin" />
         <item itemvalue="Python.page" />
         <item itemvalue="Python.browser" />
       </list>
@@ -351,14 +289,15 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="213" y="40" width="1630" height="1004" extended-state="0" />
+    <frame x="165" y="71" width="1630" height="1004" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25690955" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25690955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49310344" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49310344" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954075" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,13 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/tool/Python/Python36-32/Lib/site-packages/unittest2/loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -434,37 +366,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/report/2019/09/03/百度新闻自动化测试保存20190903190007.html" />
     <entry file="file://$PROJECT_DIR$/report/2019/09/03/images/image_1352_2019_09_03_19_00_19_339.jpg" />
-    <entry file="file://$PROJECT_DIR$/utils/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#115#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/mail.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/get_code.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/file_reader.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/create_file.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="43" />
-          <folding>
-            <element signature="e#47#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://D:/tool/Python/Python36-32/Lib/site-packages/HTMLReport/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -481,12 +387,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/2019/09/03/百度新闻自动化测试保存20190903192954.html">
+    <entry file="file://$PROJECT_DIR$/report/2019/09/03/百度新闻自动化测试保存20190903192954.html" />
+    <entry file="file://$PROJECT_DIR$/report/2019/09/03/百度新闻自动化测试保存20190903193939.html" />
+    <entry file="file://D:/tool/Python/Python36-32/Lib/unittest/suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="222" column="19" selection-start-line="222" selection-start-column="19" selection-end-line="222" selection-end-column="19" />
+        <state relative-caret-position="138">
+          <caret line="258" selection-start-line="258" selection-end-line="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
-            <element signature="n#style#0;n#td#6;n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#115#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -501,52 +426,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/2019/09/03/百度新闻自动化测试保存20190903193939.html">
+    <entry file="file://$PROJECT_DIR$/utils/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456" />
-      </provider>
-    </entry>
-    <entry file="file://D:/tool/Python/Python36-32/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="258" selection-start-line="258" selection-end-line="258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/suite/run_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        <state relative-caret-position="456">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
-            <element signature="e#47#79#0" expanded="true" />
+            <element signature="e#47#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/login_case.py">
+    <entry file="file://$PROJECT_DIR$/utils/create_file.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="61" />
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-795">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/baidu_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/page.py">
+    <entry file="file://$PROJECT_DIR$/suite/run_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="136">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
+            <element signature="e#47#79#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drivers/browser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>

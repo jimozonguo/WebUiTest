@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 from unittest2 import TestLoader
-from case.login_case import TestLogin
+from case.baidu_case import TestLogin
 import HTMLReport
 from utils.create_file import getFileName, getReportNmae
 from utils.config import Config
